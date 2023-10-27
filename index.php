@@ -1,0 +1,276 @@
+<?php session_start(); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MT9GW62C');</script>
+<!-- End Google Tag Manager -->
+		<meta charset="UTF-8">
+		<title>AgroCulture</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="google-site-verification" content="NA0cUeBM5ULLcp5HDLscT8mGEnJirSP0iag7pgEGC3o" />
+		
+		<link rel="icon" type="image/jpg" href="images/123.jpg">
+   	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+		<link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="bootstrap\js\bootstrap.min.js"></script>
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="login.css"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<link rel="stylesheet" href="indexfooter.css" />
+		<meta name="google-site-verification" content="NA0cUeBM5ULLcp5HDLscT8mGEnJirSP0iag7pgEGC3o" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT9GW62C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
+		require 'menu.php';
+	?>
+
+		<!-- Banner -->
+			<section id="banner" class="wrapper">
+				<div class="container">
+				    <div class="container1">
+				<h2>AgroCulture</h2>
+				<p>Your Product Our Market</p>
+				<br><br>
+				<center>
+					<div class="row uniform">
+						<div class="6u 12u$(xsmall)">
+							<button class="button fit" onclick="document.getElementById('id01').style.display='block'" style="width:auto"><u>LOGIN</u></button>
+						</div>
+
+						<div class="6u 12u$(xsmall)">
+							<button class="button fit" onclick="document.style.display='block'" style="width:auto; color:black"><font color="black"><a href="fsignup.php">REGISTER</a></font></button>
+						
+						</div>
+					</div>
+				</center>
+                </div>
+
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1 align-center">
+				<div class="container">
+					<header>
+						<h2>AgroCulture</h2>
+						<p>Explore the new way of trading...</p>
+					</header>
+					<div class="row 200%">
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-clock-o"></i>
+							<p><a href="market.php">Digital Market</a></p>
+						</section>
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-comments"></i>
+							<p><a href="blogView.php">Agro-Blog</a></p>
+						</section>
+						<section class="4u$ 12u$(small)">
+							<i class="icon big rounded fa-user"></i>
+							<p><a href="#">Register with us</a></p>
+						</section>
+					</div>
+				</div>
+			</section>
+    
+
+
+		<!-- Footer -->
+	<<div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/"><i class="icon fa-instagram"></i></a><a href="https://www.twitter.com/"><i class="icon fa-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon fa-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="aboutus.html">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="privacypolicy.html">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2018</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+			<div id="id01" class="modal">
+
+  <form class="modal-content animate" action="Login/login.php" method='POST'>
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+    <h3>Login</h3>
+							<form method="post" action="Login/login.php">
+								<div class="row uniform 50%">
+									<div class="7u$">
+										<input type="text" name="uname" id="uname" value="" placeholder="UserName" style="width:80%" required/>
+									</div>
+									<div class="7u$">
+										<input type="password" name="pass" id="pass" value="" placeholder="Password" style="width:80%" required/>
+									</div>
+								</div>
+								<br>
+								<br>
+									<div class="row uniform">
+										<p>
+				                            <b>Category : </b>
+				                        </p>
+				                        <div class="3u 12u$(small)">
+				                            <input type="radio" id="farmer" name="category" value="1" checked>
+				                            <label for="farmer">Farmer</label>
+				                        </div>
+				                        <div class="3u 12u$(small)">
+				                            <input type="radio" id="buyer" name="category" value="0">
+				                            <label for="buyer">Buyer</label>
+				                        </div>
+									</div>
+									<center>
+									<div class="row uniform">
+										<div class="7u 12u$(small)">
+											<input type="submit" value="Login" />
+										</div>
+									</div>
+									</center>
+								</div>
+							</form>
+						</section>
+</div>
+    </div>
+    </div>
+  </form>
+</div>
+
+
+<div id="id02" class="modal">
+
+  <form class="modal-content animate" action="Login/signUp.php" method='POST'>
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+
+<section>
+							<h3>SignUp</h3>
+							<form method="post" action="Login/signUp.php">
+								<center>
+								<div class="row uniform">
+									<div class="3u 12u$(xsmall)">
+										<input type="text" name="name" id="name" value="" placeholder="Name" required/>
+									</div>
+									<div class="3u 12u$(xsmall)">
+										<input type="text" name="uname" id="uname" value="" placeholder="UserName" required/>
+									</div>
+								</div>
+								<div class="row uniform">
+									<div class="3u 12u$(xsmall)">
+										<input type="text" name="mobile" id="mobile" value="" placeholder="Mobile Number" required/>
+									</div>
+
+									<div class="3u 12u$(xsmall)">
+										<input type="email" name="email" id="email" value="" placeholder="Email" required/>
+									</div>
+								</div>
+								<div class="row uniform">
+									<div class="3u 12u$(xsmall)">
+			                            <input type="password" name="password" id="password" value="" placeholder="Password" required/>
+			                        </div>
+			                        <div class="3u 12u$(xsmall)">
+			                            <input type="password" name="pass" id="pass" value="" placeholder="Retype Password" required/>
+			                        </div>
+								</div>
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="addr" id="addr" value="" placeholder="Address" style="width:80%" required/>
+									</div>
+								</div>
+								<div class="row uniform">
+									<p>
+			                            <b>Category : </b>
+			                        </p>
+			                        <div class="3u 12u$(small)">
+			                            <input type="radio" id="farmer" name="category" value="1" checked>
+			                            <label for="farmer">Farmer</label>
+			                        </div>
+			                        <div class="3u 12u$(small)">
+			                            <input type="radio" id="buyer" name="category" value="0">
+			                            <label for="buyer">Buyer</label>
+			                        </div>
+								</div>
+								<div class="row uniform">
+									<div class="3u 12u$(small)">
+										<input type="submit" value="Submit" name="submit" class="special" /></li>
+									</div>
+									<div class="3u 12u$(small)">
+										<input type="reset" value="Reset" name="reset"/></li>
+									</div>
+								</div>
+							</center>
+							</form>
+						</section>
+
+    </div>
+    </div>
+  </form>
+</div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var modal1= document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+}
+
+</script>
+<script>
+ document.addEventListener('DOMContentLoaded',() => {
+
+var disclaimer= document.querySelector("img[alt='www.000webhost.com']");
+if(disclaimer){
+disclaimer.remove();
+}
+});
+</script>
+
+
+	</body>
+</html>
